@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  background: #fff8fc;
+  color: #444;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #ffbee6;
+  padding: 15px;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffd5ff;
+}
+
+/* Sections */
+.section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* Hero */
+.hero {
+  background: #ffd9ec;
+}
+
+.profile {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+
+/* Skills */
+.skill-box {
+  display: inline-block;
+  text-align: left;
+  background: #ffe6fa;
+  padding: 20px;
+  border-radius: 10px;
+  line-height: 2;
+}
+
+/* Projects */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 4px 10px #ffdae9;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Button */
+.btn {
+  background: #ff8ec7;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff74c1;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background: #ffbee6;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
